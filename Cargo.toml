@@ -1,0 +1,14 @@
+[package]
+name = "kaf"
+version = "1.0.0"
+homepage = "https://github.com/kotx/kaf"
+repository = "https://github.com/kotx/kaf.git"
+keywords = ["log", "logger"]
+authors = ["Kaf Contributors"]
+description = "Cursed and pretty logging with Fn filters"
+license = "Zlib"
+edition = "2018"
+
+[dependencies]
+log = { version = "^0.4", features = ["std"] }
+ansi_term = "^0.12"
