@@ -1,5 +1,9 @@
 # Kaf
 
+[![Crates.io](https://img.shields.io/crates/v/kaf?style=flat-square)](https://crates.io/crates/kaf)
+[![docs.rs](https://img.shields.io/docsrs/kaf?style=flat-square)](https://docs.rs/kaf)
+![Crates.io](https://img.shields.io/crates/d/kaf?style=flat-square)
+
 Cursed and pretty logging with `Fn` filters
 
 ```rust
