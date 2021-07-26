@@ -1,6 +1,6 @@
 [package]
 name = "kaf"
-version = "1.0.1"
+version = "1.0.2"
 homepage = "https://github.com/kotx/kaf"
 repository = "https://github.com/kotx/kaf.git"
 keywords = ["log", "logger"]
