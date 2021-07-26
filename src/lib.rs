@@ -91,11 +91,10 @@ impl log::Log for Logger {
                     Yellow.bold().paint(record.target()),
                     Box::new(record.args()),
                 ),
-                log::Level::Trace => (
+                log::Level::Trace | log::Level::Debug => (
                     Purple.bold().paint(record.target()),
                     Box::new(record.args()),
                 ),
-                log::Level::Debug => (Blue.bold().paint(record.target()), Box::new(record.args())),
                 log::Level::Info => (Cyan.bold().paint(record.target()), Box::new(record.args())),
             };
 
