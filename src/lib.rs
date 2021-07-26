@@ -85,7 +85,7 @@ impl log::Log for Logger {
             let (pre, args): (ANSIGenericString<'_, str>, Box<dyn Display>) = match record.level() {
                 log::Level::Error => (
                     Red.bold().paint(record.target()),
-                    Box::new(Style::new().bold().paint(record.args().as_str().unwrap())),
+                    Box::new(Style::new().bold().paint(record.args().to_string())),
                 ),
                 log::Level::Warn => (
                     Yellow.bold().paint(record.target()),
